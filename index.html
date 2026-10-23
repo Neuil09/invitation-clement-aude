@@ -210,15 +210,16 @@ svg.i {
 }
 
 /* Fleurs décoratives dans les coins supérieurs */
+
+/* Fleurs décoratives : coins supérieurs du hero */
 .hero .fl {
   position: absolute;
   top: 0;
   bottom: auto;
-  width: min(35vw, 175px);
+  width: min(28vw, 145px);
   height: auto;
-  max-height: 160px;
+  max-height: 145px;
   object-fit: contain;
-  object-position: top;
   opacity: 0.95;
   pointer-events: none;
   z-index: 1;
@@ -227,16 +228,15 @@ svg.i {
 .hero .fl.a {
   right: 0;
   left: auto;
-  transform: rotate(180deg);
-  transform-origin: center;
+  transform: none;
 }
 
 .hero .fl.b {
   left: 0;
   right: auto;
-  transform: scaleX(-1) rotate(180deg);
-  transform-origin: center;
+  transform: scaleX(-1);
 }
+
 
 
 /* =========================
