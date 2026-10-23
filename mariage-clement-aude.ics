@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Invitation//FR
+BEGIN:VEVENT
+UID:mariage-clement-aude-20261121@invitation
+DTSTAMP:20261023T000000Z
+DTSTART:20261121T140000Z
+DTEND:20261121T220000Z
+SUMMARY:Mariage de Clément et Aude
+LOCATION:Église Marie Auxiliatrice de Mènontin (messe 15h) puis Queen Fafa Palace\, Bidossessi (réception 19h)
+DESCRIPTION:Messe à 15h et réception à 19h.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dans 3 jours : mariage de Clément et Aude
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aujourd'hui : mariage de Clément et Aude, messe à 15h
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
