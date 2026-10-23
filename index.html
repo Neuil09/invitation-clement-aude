@@ -209,34 +209,35 @@ svg.i {
   z-index: 1;
 }
 
-/* FLEURS : positionnées uniquement dans le hero */
-.hero {
-  position: relative;
-  isolation: isolate;
-}
-
+/* Fleurs décoratives dans les coins supérieurs */
 .hero .fl {
   position: absolute;
-  bottom: 0;
-  width: min(43vw, 220px);
+  top: 0;
+  bottom: auto;
+  width: min(35vw, 175px);
   height: auto;
-  max-height: 190px;
+  max-height: 160px;
   object-fit: contain;
-  object-position: bottom;
-  opacity: .96;
+  object-position: top;
+  opacity: 0.95;
   pointer-events: none;
   z-index: 1;
 }
 
 .hero .fl.a {
   right: 0;
-  transform: none;
+  left: auto;
+  transform: rotate(180deg);
+  transform-origin: center;
 }
 
 .hero .fl.b {
   left: 0;
-  transform: scaleX(-1);
+  right: auto;
+  transform: scaleX(-1) rotate(180deg);
+  transform-origin: center;
 }
+
 
 /* =========================
    EN-TÊTE DE L'INVITATION
